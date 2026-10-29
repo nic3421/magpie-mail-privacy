@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Magpie Mail Privacy Policy</title>
+<style>body{max-width:760px;margin:48px auto;padding:0 24px;font:17px/1.65 system-ui;color:#202020;background:#fff}h1,h2{line-height:1.2}h2{margin-top:32px}a{color:#1458a0}</style>
+<main>
+<h1>Magpie Mail Privacy Policy</h1>
+<p>Effective date: 29 October 2026. This policy describes Magpie Mail for Android (package <code>com.magpie.mail</code>).</p>
+<h2>Your email stays under your control</h2>
+<p>Magpie Mail connects directly to the email servers you choose using IMAP and SMTP over encrypted connections. Your email provider receives the credentials and mail requests needed to operate your mailbox. We do not operate a server that receives or stores your mailbox. Your email provider has its own privacy policy.</p>
+<p>The app stores downloaded messages, drafts, attachments, mailbox addresses, settings and local labels in its private storage on your device. Saved mailbox passwords are encrypted using a key held in Android Keystore. The email database is not separately encrypted by the app; device security and Android app isolation protect local storage. Android backup and device-transfer backup are disabled for app data.</p>
+<h2>Optional usage statistics</h2>
+<p>Usage statistics are off by default. If you enable them in Settings, release builds configured for analytics send selected screen names and actions, operation outcomes and durations, the app version, and random installation and session identifiers to PostHog's EU ingestion service. The app does not include message contents, mailbox addresses, subjects, passwords, search queries, attachment contents or filenames in these events. Automatic screen recording, session replay and person-profile creation are not enabled.</p>
+<p>You can turn statistics off at any time. This stops new analytics, cancels the local in-memory queue and deletes the locally stored analytics identifier. Turning statistics on again creates a new identifier. Information already received by the service is not automatically recalled.</p>
+<h2>Optional crash reports</h2>
+<p>Starting with version 0.1.7, crash reports are off by default, including after updating an older installation. The separate “Send crash reports” switch controls them independently of usage statistics. The diagnostics SDK is not initialized unless this setting is enabled and the release is configured for reporting.</p>
+<p>If enabled, the app sends sanitized technical error types and code stack traces, timestamps, app release information and service tags to the developer's Bugsink error-reporting service through the Sentry Android library. Reports exclude message contents, mailbox addresses, passwords, exception message text, screenshots, screen recordings and attachments. Turning reports off disables new reporting and closes the SDK. It cannot recall reports already received by the server.</p>
+<h2>Other network connections and sharing</h2>
+<p>The app checks the developer's update storage for release metadata and can download an update you request. It does not send mailbox contents or credentials to that service. Mail providers, update hosting, analytics and error-reporting infrastructure necessarily receive network information such as your IP address when you connect. Such services may keep operational or security logs.</p>
+<p>Opening, exporting or sharing an attachment, opening a link, or using another app to view a file transfers the selected data to the destination you choose. Magpie Mail does not sell mailbox contents or use them for advertising. The app has no advertising SDK.</p>
+<h2>Retention and deletion</h2>
+<p>Local messages, drafts, attachments and settings remain on your device until removed through app features, Android's “Clear storage” action, or uninstalling the app. Clearing app data or uninstalling removes the app's local copy; it does not delete your mailbox at your email provider. Operations explicitly performed on the server, where enabled, may change messages at that provider.</p>
+<p>Magpie Mail does not create a separate online Magpie account. Connecting an existing mailbox does not create a new account with us. To delete your email-provider account, contact that provider. For questions or deletion requests about optional telemetry already received, use the <a href="#contact">privacy contact</a>. Anonymous technical reports may not contain enough information to identify an individual report as yours.</p>
+<h2>This website and policy updates</h2>
+<p>This policy is hosted on GitHub Pages. GitHub may log visitor IP addresses for security; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's Privacy Statement</a>. This page contains no analytics scripts or cookies set by Magpie Mail.</p>
+<p>We may update this policy when the app's data handling changes. The current policy and effective date will be published at this address. For privacy questions, use the <a href="#contact">privacy contact</a>.</p>
+<h2 id="contact">Privacy contact</h2>
+<p>For privacy inquiries and data-deletion requests: <a href="mailto:nicolay.ilinov@gmail.com">nicolay.ilinov@gmail.com</a>.</p>
+</main>
+</html>
